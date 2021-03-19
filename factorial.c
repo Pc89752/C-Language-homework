@@ -11,6 +11,10 @@ int main(void){
 		if(n < 0){
 			puts("Please enter again");
 			continue;
+		}else if(n == 0){
+			puts("0! = 1");
+			system("pause");
+			exit(0);
 		}else
 			break;
 	}
